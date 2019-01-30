@@ -10,11 +10,11 @@ namespace Dashboard.DataAccess.Configurations
     {
         public CustomerConfiguration()
         {
-            property(c => c.CustomerName).IsRequired().HasMaxLength(100);
-            property(c => c.CustomerEmail).IsRequired().HasMaxLength(60);
-            property(c => c.CustomerPhone).IsRequired().HasMaxLength(100);
-            property(c => c.CustomerCountry).IsRequired().HasMaxLength(100);
-            property(c => c.CustomerImage).IsOptional();
+            Property(c => c.CustomerName).IsRequired().HasMaxLength(100);
+            Property(c => c.CustomerEmail).IsRequired().HasMaxLength(60);
+            Property(c => c.CustomerPhone).IsRequired().HasMaxLength(100);
+            Property(c => c.CustomerCountry).IsRequired().HasMaxLength(100);
+            Property(c => c.CustomerImage).IsOptional();
         }
     }
 }
