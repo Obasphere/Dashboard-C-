@@ -134,6 +134,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CustomerOrderController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="DataAccess\Configurations\CustomerConfiguration.cs" />
     <Compile Include="DataAccess\Configurations\EntityConfiguration.cs" />
     <Compile Include="DataAccess\Configurations\OrderConfiguration.cs" />
@@ -199,6 +200,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\CustomerOrder\" />
+    <Folder Include="Views\Products\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
