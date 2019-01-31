@@ -17,7 +17,7 @@ namespace Dashboard.DataAccess.Entities
         public string CustomerEmail { get; set; }
         public string CustomerPhone { get; set; }
         public string CustomerCountry { get; set; }
-        public string Customerimage { get; set; }
+        public string CustomerImage { get; set; }
 
         public virtual ICollection<Order> Orders { get; set; }
     }
