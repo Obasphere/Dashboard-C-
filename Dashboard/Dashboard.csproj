@@ -127,8 +127,17 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="DataAccess\Configurations\CustomerConfiguration.cs" />
+    <Compile Include="DataAccess\Configurations\EntityConfiguration.cs" />
+    <Compile Include="DataAccess\Configurations\OrderConfiguration.cs" />
+    <Compile Include="DataAccess\Configurations\OrderDetailsConfiguration.cs" />
+    <Compile Include="DataAccess\Configurations\ProductConfiguration.cs" />
+    <Compile Include="DataAccess\DashboardContext.cs" />
     <Compile Include="DataAccess\Entities\Customer.cs" />
     <Compile Include="DataAccess\Entities\IEntity.cs" />
+    <Compile Include="DataAccess\Entities\Order.cs" />
+    <Compile Include="DataAccess\Entities\OrderDetails.cs" />
+    <Compile Include="DataAccess\Entities\Product.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -156,7 +165,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -173,7 +184,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="DataAccess\Configurations\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
