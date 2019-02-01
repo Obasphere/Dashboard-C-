@@ -1,6 +1,6 @@
-﻿using ApplicationDashboardMVC.DataAccess;
-using ApplicationDashboardMVC.DataAccess.Entitites;
-using ApplicationDashboardMVC.Models;
+﻿using Dashboard.DataAccess;
+using Dashboard.DataAccess.Entitites;
+using Dashboard.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ApplicationDashboardMVC.Controllers
+namespace Dashboard.Controllers
 {
     public class ProductsController : Controller
     {
